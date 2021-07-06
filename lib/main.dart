@@ -1,8 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-//import 'com.microsoft.appcenter.AppCenter';
-//import 'com.microsoft.appcenter.analytics.Analytics';
-//import 'com.microsoft.appcenter.crashes.Crashes';
 import 'paginaprincipal.dart';
 
 void main() {
