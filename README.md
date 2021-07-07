@@ -8,3 +8,5 @@ Principais pontos =
 3. Também usei um botão chamado Swap que faz com que inverta a posição das moedas que estou convertendo
 4. Usei o método future e fiz uso tanto de maps quanto de lists
 5. Ele funciona bem, mas qualquer alteração que vc faça para deixar ele melhor sempre será bem vinda :)
+
+Feito por Luiz Antonio 06/07/2021
