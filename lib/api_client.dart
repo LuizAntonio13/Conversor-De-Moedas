@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiClient {
-  final Uri currencyURL = Uri.https("api.currconv.com", "/api/v7/currencies", {"apiKey": "da4a5b25eb1b4ec089509f4b8f3b530e"});
+  final Uri currencyURL = Uri.https("api.currconv.com", "/api/v7/currencies", {"apiKey": ""});
   // Essa foi a minha chave que utilizei, crie uma nova chave no site https://www.currencyconverterapi.com/
 
   Future<List<String>> getCurrencies() async {
@@ -20,7 +20,7 @@ class ApiClient {
   }
 
   Future<double> getRate(String from, String to) async {
-    final Uri rateUrl = Uri.https("api.currconv.com", "/api/v7/convert", {"apiKey": "da4a5b25eb1b4ec089509f4b8f3b530e", 
+    final Uri rateUrl = Uri.https("api.currconv.com", "/api/v7/convert", {"apiKey": "", 
       "q" : "${from}_${to}",
       "compact": "ultra"
     });
